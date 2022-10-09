@@ -11,8 +11,10 @@ public class Task_1 {
         alfaBank.creditCardInformation();
         bpsBank.creditCardWithdrawal();
         bpsBank.creditCardInformation();
+
     }
 }
+
 class CreditCard {
     String cardNumber;
     double cardBalance;
