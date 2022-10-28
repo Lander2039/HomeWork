@@ -25,7 +25,8 @@ public class Task_2 {
                 System.out.println("Fourth started!");
             }
         };
-        thread4.run();
+        Thread thread = new Thread(thread4);
+        thread.start();
     }
 }
 
